@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cronojason-compress_jd133"
+name = "cronojason-tool_call_arg_mismatch_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告模型压缩工程师·工具调用的参数错配相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://cronojason.github.io"
-Repository = "https://github.com/cronojason/compress_jd133"
-Issues = "https://github.com/cronojason/compress_jd133/issues"
+Repository = "https://github.com/cronojason/tool_call_arg_mismatch_pattern_locate"
+Issues = "https://github.com/cronojason/tool_call_arg_mismatch_pattern_locate/issues"
 
 [project.scripts]
-compress_jd133 = "compress_jd133:main"
+tool_call_arg_mismatch_pattern_locate = "tool_call_arg_mismatch_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["compress_jd133"]
+py-modules = ["tool_call_arg_mismatch_pattern_locate"]
